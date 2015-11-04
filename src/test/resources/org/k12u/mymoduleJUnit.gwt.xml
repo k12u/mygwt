@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="mymodule">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.k12u.mymodule' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/mymodule/greet" class="org.k12u.server.GreetingServiceImpl" />
+
+</module>
